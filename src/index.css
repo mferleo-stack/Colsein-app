@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: #E9EDF2;
+  font-family: 'Satoshi', -apple-system, system-ui, sans-serif;
+}
+
+@keyframes colsein-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+a { color: #00A3E0; text-decoration: none; }
+a:hover { color: #002D62; }
+select { font-family: 'Satoshi', -apple-system, system-ui, sans-serif; }
+
+* { scrollbar-width: none; -ms-overflow-style: none; }
+*::-webkit-scrollbar { display: none; width: 0; height: 0; }
+
+.colsein-input { transition: border-color .15s ease; }
+.colsein-input:focus { outline: none; border-color: #00A3E0 !important; }
+.colsein-btn:disabled { opacity: .6; cursor: not-allowed; }
